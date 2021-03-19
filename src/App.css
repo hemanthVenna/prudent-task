@@ -7,6 +7,86 @@
   pointer-events: none;
 }
 
+.inputStyle {
+  width: 280px;
+    height: 30px;
+    padding: 5px;
+    margin: 20px;
+}
+.flexWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.paddingAll {
+  padding: 25px
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.alignCenter {
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  margin: 20px 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding:15px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  
+}
+
+.loginWrap {
+  width: 380px;
+  padding: 25px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 1px;
+  margin-bottom: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
